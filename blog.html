@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Loki Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Loki" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Lokesh Kumar">Lokesh Kumar</h1>
+
+          <p class="title">Azure Architect</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:lokesh_kumar_j@outlook.com" class="contact-link">lokesh_kumar_j@outlook.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919940410418" class="contact-link">(+91) 9940410418</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1994-11-17">November 17, 1994</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Chennai, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/lokesh-kumar-j/" class="social-link">
+              <ion-icon name="logo-linkedIn"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Loki1711" class="social-link">
+              <ion-icon name="logo-GitHub"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/iam__lokiii/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="resume.html" class="navbar-link">Resume</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="portfolio.html" class="navbar-link">Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="blog.html" class="navbar-link active">Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog active" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Azure Architecture Best Practices" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Azure</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-12-15">Dec 15, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Azure Architecture Best Practices for Enterprise</h3>
+
+                  <p class="blog-text">
+                    Discover the essential patterns and practices for designing scalable, secure, and cost-effective Azure solutions.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Kubernetes Security" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Kubernetes</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-11-28">Nov 28, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Securing Kubernetes Clusters: A Comprehensive Guide</h3>
+
+                  <p class="blog-text">
+                    Learn how to implement robust security measures for your Kubernetes deployments and protect your containerized applications.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="DevOps Automation" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">DevOps</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-11-10">Nov 10, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Automating Infrastructure with Terraform and Azure DevOps</h3>
+
+                  <p class="blog-text">
+                    Step-by-step guide to implementing Infrastructure as Code using Terraform and Azure DevOps pipelines.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="Microservices Architecture" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Architecture</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-10-22">Oct 22, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Building Resilient Microservices on Azure</h3>
+
+                  <p class="blog-text">
+                    Explore patterns and practices for designing fault-tolerant microservices architecture using Azure services.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="Azure Cost Optimization" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Azure</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-10-05">Oct 05, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Azure Cost Optimization Strategies</h3>
+
+                  <p class="blog-text">
+                    Practical tips and techniques to optimize your Azure spending without compromising performance and reliability.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Container Orchestration" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Containers</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-09-18">Sep 18, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Container Orchestration with Azure Kubernetes Service</h3>
+
+                  <p class="blog-text">
+                    Deep dive into AKS features and how to leverage them for efficient container orchestration at scale.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
